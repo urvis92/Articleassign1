@@ -1,0 +1,173 @@
+
+.header{
+  width: 100%;
+  margin:0;
+  }
+  .headerimage{
+    z-index:-100;
+margin:0;
+position:absolute;
+  }
+br {
+  line-height: 50%;
+    }
+h1{
+  font-family:sans-serif;
+  padding-top:300px;
+  margin-left: 150px;
+  font-size: 100px;
+color:white;
+z-index:100;
+}
+h2{
+  font-family:'Arimo', bold, sans-serif;
+  padding-left: 150px;
+    font-size: 16px;
+    width:40%;
+  color:white;
+  z-index: 100;
+}
+.author{
+  font-family:'Arimo', bold, sans-serif;
+  padding-left: 150px;
+  font-size:12px;
+  color: white;
+  line-height: 70%;
+  z-index: 100;
+}
+.paragraph1{
+  font-family: 'Arimo', sans-serif;
+  font-size: 17px;
+  display:flex;
+  flex-direction: column;
+flex-wrap: wrap;
+line-height: 150%;
+margin-top:250px;
+z-index:100;
+}
+.text{
+    font-family: 'Arimo', sans-serif;
+  font-size: 17px;
+  display:flex;
+  flex-direction: column;
+flex-wrap: wrap;
+line-height: 160%;
+width:60%;
+margin-left:150px;
+z-index:100;
+}
+.textfloatleft{
+  font-family: 'Arimo', sans-serif;
+font-size: 17px;
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+float:left;
+line-height: 160%;
+width:40%;
+margin-left:150px;
+z-index:100;
+}
+.image{
+  float:right;
+margin-right:120px;
+margin-bottom:30px;
+}
+.pullquote1{
+  font-weight: bold;
+  font-size: 24px;
+  width:45%;
+  margin-left:160px;
+  z-index:100;
+}
+.backgroundquote{
+  background-color: black;
+  width:100%;
+  height: 650px;
+  margin:5% 0;
+  padding:10%;
+}
+
+.pullquote2{
+  font-weight: bold;
+  text-align:left;
+  font-size:48px;
+  line-height: 160%;
+  width:70%;
+  margin-left:10px;
+  z-index:100;
+  color:white;
+}
+
+.pullquote3{
+  font-weight: bold;
+  text-align:center;
+  font-size:28px;
+  width:70%;
+  margin-left:140px;
+}
+.textfloatright{
+  font-family: 'Arimo', sans-serif;
+font-size: 17px;
+float:right;
+line-height: 160%;
+width:40%;
+margin-right:110px;
+z-index:100;
+}
+
+.image2{
+  float:left;
+  margin-top:20px;
+  margin-bottom:30px;
+  margin-left:150px;
+}
+
+@media only screen and (max-width: 750px) {
+
+  .text {
+        margin-left:80px;
+        width:70%;
+    }
+    .pullquote1{
+      width:70%;
+      margin-left:40px;
+}
+.pullquote2{
+  width:75%;
+  margin-left:40px;
+}
+.pullquote3{
+  width:75%;
+  margin-left:40px;
+}
+.image{
+  background-size: contain;
+}
+}
+@media only screen and (max-width: 450px) {
+
+  .text {
+        margin-left:40px;
+        width:95%;
+}
+.pullquote1{
+  width:95%;
+  margin-left:30px;
+}
+.pullquote2{
+  width:95%;
+  margin-left:30px;
+}
+.pullquote3{
+  width:95%;
+  margin-left:30px;
+}
+.playlistBG1{
+  visibility: hidden;
+}
+.playlistBG2{
+  visibility: hidden;
+}
+
+}
