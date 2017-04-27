@@ -4,6 +4,7 @@
   margin:0;
   }
   .headerimage{
+    max-width:100%;
     z-index:-100;
 margin:0;
 position:absolute;
@@ -43,7 +44,7 @@ h2{
 flex-wrap: wrap;
 line-height: 150%;
 margin-top:250px;
-z-index:100;
+
 }
 .text{
     font-family: 'Arimo', sans-serif;
@@ -54,31 +55,29 @@ flex-wrap: wrap;
 line-height: 160%;
 width:60%;
 margin-left:150px;
-z-index:100;
+
 }
 .textfloatleft{
   font-family: 'Arimo', sans-serif;
 font-size: 17px;
-display:flex;
-flex-direction: column;
-flex-wrap: wrap;
+margin-right: 150px;
 line-height: 160%;
-width:40%;
 margin-left:150px;
-z-index:100;
+
 }
 .image{
   max-width:30%;
   float:right;
 margin-right:150px;
 margin-bottom:30px;
+margin-left:30px;
 }
 .pullquote1{
   font-weight: bold;
   font-size: 24px;
   width:45%;
   margin-left:160px;
-  z-index:100;
+
 }
 .backgroundquote{
   background-color: black;
@@ -94,7 +93,7 @@ margin-bottom:30px;
   line-height: 160%;
   width:70%;
   margin-left:10px;
-  z-index:100;
+
   color:white;
 }
 
@@ -113,7 +112,6 @@ margin-bottom:30px;
   font-family: 'Arimo', sans-serif;
 font-size: 17px;
 line-height: 160%;
-z-index:100;
 margin-left:150px;
 }
 
@@ -123,13 +121,16 @@ float:left;
   margin-bottom:30px;
   margin-left:150px;
     margin-right: 30px;
+    width:40%;
 
 }
 
-@media only screen and (max-width: 750px) {
-
+@media only screen and (max-width: 950px) {
+.paragraph1{
+  margin-top: 10%;
+}
   .text {
-        margin-left:80px;
+        margin-left:100px;
         width:70%;
     }
     .pullquote1{
@@ -137,40 +138,107 @@ float:left;
       margin-left:40px;
 }
 .pullquote2{
+  width:100%;
+  margin-left:10px;
+}
+.pullquote3{
   width:75%;
   margin-left:40px;
+}
+.textfloatleft{
+  margin-left:100px;
+}
+.image2{
+  margin-left:100px;
+}
+.textfloatright{
+  margin-left:100px;
+}
+
+}
+@media only screen and (max-width: 950px) {
+.paragraph1{
+  margin-top: 8%;
+}
+  .text {
+        margin-left:50px;
+        width:80%;
+    }
+    .pullquote1{
+      width:70%;
+      margin-left:40px;
+}
+.pullquote2{
+  width:100%;
+  margin-left:10px;
 }
 .pullquote3{
   width:75%;
   margin-left:40px;
 }
 .image{
-  background-size: contain;
+  margin-right:50px;
+}
+.textfloatleft{
+  margin-left:50px;
+}
+.floatboxes{
+  padding-right:50px;
+}
+.image2{
+  margin-left:50px;
+}
+.textfloatright{
+  margin-left:50px;
 }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
+  .header{
+    max-width:100%;
 
+  }
+.paragraph1{
+  margin-top: 25px;
+}
   .text {
-        margin-left:40px;
-        width:95%;
+  margin-left:40px;
+max-width:95%;
 }
 .pullquote1{
-  width:95%;
+  max-width:100%;
   margin-left:30px;
+}
+.backgroundquote{
+  padding: 3% 10%;
 }
 .pullquote2{
-  width:95%;
+  max-width:100%;
   margin-left:30px;
+  font-size: 24px;
+  margin-left:0;
+
 }
 .pullquote3{
-  width:95%;
+  max-width:95%;
   margin-left:30px;
 }
-.playlistBG1{
-  visibility: hidden;
+.image{
+  width:auto;
+  float:none;
+  max-width:100%;
 }
-.playlistBG2{
-  visibility: hidden;
+.textfloatleft{
+  margin-left:30px;
+  margin-right: 30px;
+
 }
+.image2{
+  width:auto;
+  float:none;
+  max-width:100%;
+  padding:0;
+  margin-left:30px;
+}
+
 
 }
